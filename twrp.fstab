@@ -7,5 +7,7 @@
 /firmware        ext4              /dev/block/bootdevice/by-name/modem
 /misc            emmc              /dev/block/bootdevice/by-name/misc
 /fsg             ext4              /dev/block/bootdevice/by-name/fsg
+/efs1            emmc              /dev/block/bootdevice/by-name/modemst1   flags=backup=1;display=EFS
+/efs2            emmc              /dev/block/bootdevice/by-name/modemst2   flags=backup=1;subpartitionof=/efs1
 /external_sd     auto              /dev/block/mmcblk1p1  /dev/block/mmcblk1     flags=display="Micro SDcard";storage;wipeingui;removable
 /usb-otg         auto              /dev/block/sda1  /dev/block/sda              flags=display="USB OTG";storage;removable
