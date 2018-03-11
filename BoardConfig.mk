@@ -70,5 +70,6 @@ TARGET_RECOVERY_FSTAB = device/moto/clark/twrp.fstab
 DEVICE_RESOLUTION := 1440x2560
 TW_NEW_ION_HEAP := true
 TW_INCLUDE_CRYPTO := true
+TARGET_CRYPTFS_HW_PATH += vendor/qcom/opensource/cryptfs_hw
 TW_SCREEN_BLANK_ON_BOOT := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
